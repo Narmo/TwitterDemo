@@ -1,0 +1,14 @@
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#ifdef DEBUG
+#define TRACE(a, ...) NSLog(a, ##__VA_ARGS__)
+#else
+#define TRACE(a, ...)
+#endif
+
+#define RGB(a, b, c) [UIColor colorWithRed:(a / 255.0f) green:(b / 255.0f) blue:(c / 255.0f) alpha:1.0f]
+
+#define USERNAME @"malosiev"

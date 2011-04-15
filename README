@@ -1,0 +1,6 @@
+Demo application for iOS showing Twitter timeline.
+
+Uses json-framework: http://stig.github.com/json-framework/
+
+This software is public domain and can be used in any project without restrictions.
+json-framework is published under New BSD License terms.
